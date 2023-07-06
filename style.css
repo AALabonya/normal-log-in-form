@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("image/treee.webp");
+    background-size: cover;
+    position: absolute;
+}
+
+.btn{
+    width: 380px;
+    height:380px;
+    margin: 100px 480px;
+    padding: 5px;
+    justify-content: center;
+    background-position: center;
+    background-color: rgb(134, 177, 186);
+    position: relative;
+    align-items: center;
+    border-radius: 25px;
+
+    
+}
+.btn:hover{
+    color:rgb(103, 11, 11);
+}
+.log{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+#form-box{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    border-radius: 50px;
+    padding: 10px 0 ;
+    margin: 5px 0;
+    border-left:0;
+    border-right:0 ;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    background: transparent;
+}
+
+#form-box:hover{
+    color: aqua;
+    box-shadow: brown;
+
+}
+input{
+    border-radius: 5%;
+}
+.button{
+    border-radius:4px;
+}
